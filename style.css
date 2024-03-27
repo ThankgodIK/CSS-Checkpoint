@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+body {
+  background-color: beige;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+#layout {
+  /* border: 5px;
+  border-style: solid;
+  border-color: black; */
+  background-color: white;
+  max-width: 1300px;
+  margin-bottom: 5rem;
+}
+nav {
+  display: flex;
+  gap: 1rem;
+  background-color: beige;
+  padding: 25px;
+}
+
+nav a {
+}
+h1:hover {
+  color: blue;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+footer {
+  text-align: center;
+  background-color: beige;
+}
+
+#hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1000;
+  margin: 5rem;
+  border: 0;
+  border-bottom: 5px;
+  border-style: solid;
+
+  border-color: beige;
+
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+#hero-section h1 {
+  margin-top: 2rem;
+}
+
+#main-section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  max-width: 1200px;
+  gap: 3rem;
+  margin: 0 auto;
+}
+
+.main-text {
+  max-width: 600px;
+}
+
+#home-cta-button {
+  padding: 1rem 4rem 1rem 4rem;
+  border: 0;
+  border-radius: 2rem;
+  background-color: rgb(125, 203, 203);
+}
+
+.about-forms {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1000px;
+  margin: 0 auto;
+  border: 0.3rem;
+  border-style: solid;
+  border-color: beige;
+  border-radius: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  padding: 2rem 0 2rem 0;
+}
+
+.about-forms form {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+}
+
+.form-input {
+  border: 0;
+  padding: 0.5rem 10rem;
+}
+
+#cta-button {
+  border: 0;
+  width: 10rem;
+  padding: 1rem;
+  background-color: aquamarine;
+  border-radius: 0.7rem;
+}
+/* #engaging-marketing:link {
+  color: blue;
+}
+#engaging-marketing:visited {
+  color: #ee0c0c;
+} */
